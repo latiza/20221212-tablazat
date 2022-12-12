@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+th,td{
+    border: solid black 1px;
+    padding: 20px;
+}
+
+.red{
+    background-color: red;
+}
+
+.kek{
+    background-color: blue;
+}
+
+.zold{
+    background-color: green;
+}
+
+.sarga{
+    background-color: yellow;
+}

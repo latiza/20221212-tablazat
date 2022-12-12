@@ -4,83 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Táblázat</title>
 </head>
 <body>
-    <table>
-    <div class="container">
-        <h1>Reszponzív táblázat</h1>
-    <tr>
-        <th>Órák</th>
-        <td>Hétfő</td>
-        <td>Kedd</td>
-        <td>Szerda</th>
-        <td>Csütörtök</td>
-        <td>Péntek</td>
-        <td>Szombat</td>
-        <td>Vasárnap</td>
-    </tr>
-    <tr>
-        <th>1</th>
-        <td class="elso" rowspan="2"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td colspan="2" rowspan="8" ><h2>PIHENÉS</h2></td>
-    </tr>
-    <tr>
-        <th>2</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>3</th>
-        <td></td>
-        <td class="maosodik" colspan="3"></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>4</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="harmadik" rowspan="3"></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>5</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>6</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>7</th>
-        <td></td>
-        <td class="otodik" colspan="3"></td>
-        <td class="hatodik" rowspan="2"></td>
-    </tr>
-    <tr>
-        <th>8</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-
-    </tr>
-    </table>
+    <div class="wrapper">
+        <h1>Reszponzív Táblázat</h1>
+        <table>
+            <tr>
+                <th>Órák</th>
+                <td colspan="2">Hétfő</td>
+                <td colspan="3">Kedd</td>
+                <td>Szerda</td>
+                <td>Csütörtök</td>
+                <td>Péntek</td>
+                <td>Szombat</td>
+                <td>Vasárnap</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td rowspan="2" colspan="2" class="red"></td>
+                <td colspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="8" colspan="2">Pihenés</td>
+                
+            </tr>
+            <tr>
+                <th>2</th>
+                <td colspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+                
+            </tr>
+            <tr>
+                <th>3</th>
+                <td colspan="2" colspan="3"></td>
+                <td colspan="5" class="kek"></td>
+                <td></td>
+                
+                
+            </tr>
+            <tr>
+                <th>4</th>
+                <td colspan="2"></td>
+                <td colspan="3"></td>
+                
+                <td></td>
+                <td rowspan="3" class="sarga"></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <th>5</th>
+                <td colspan="2"></td>
+                <td colspan="3"></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <th>6</th>
+                <td colspan="2"></td>
+                <td colspan="3"></td>
+                <td></td>
+                <td rowspan="3" class="zold"></td>
+               
+                
+            </tr>
+            <tr>
+                <th>7</th>
+                <td colspan="2"></td>
+                <td colspan="5" class="kek"></td>
+                
+                
+            </tr>
+            <tr>
+                <th>8</th>
+                <td colspan="2"></td>
+                <td colspan="3"></td>
+                <td></td>
+                <td></td>
+                
+                
+            </tr>
+        </table>
     </div>
-    
 </body>
 </html>
