@@ -1,0 +1,32 @@
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    width: 5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    transform: rotate(+90deg);
+    width: auto;
+    font-size: 50px;
+}
+#piros{
+    background-color: red;
+}
+#zold{
+    background-color: green;
+}
+#kek1{
+    background-color: blue;
+}
+#kek2{
+    background-color: blue;
+}
+#sarga{
+    background-color: yellow;
+
+}
