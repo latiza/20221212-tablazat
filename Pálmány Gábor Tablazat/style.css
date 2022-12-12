@@ -1,0 +1,43 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+table{
+    
+
+}
+
+td,th,tr{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+.piros{
+    background-color: red;
+}
+
+.kek{
+    background-color: blue;
+}
+
+.sarga{
+    background-color: yellow;
+}
+
+.zold{
+    background-color: green;
+}
+
+.oldalas{
+    font-size: 43px;
+    letter-spacing: 15px;
+    transform: rotate(90deg);
+    text-align: center;
+}
