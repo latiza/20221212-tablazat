@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.mainwrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#szin1 {
+    background-color: red;
+}
+
+#szin2 {
+    background-color: blue;
+}
+
+#szin3 {
+    background-color: yellow;
+}
+
+#szin4 {
+    background-color: blue;
+}
+
+#szin5 {
+    background-color: green;
+}
