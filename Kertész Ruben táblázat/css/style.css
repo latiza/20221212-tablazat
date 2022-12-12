@@ -1,0 +1,36 @@
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.piros {
+    background-color: red;
+}
+
+.kek1 {
+    background-color: blue;
+}
+
+.sarga {
+    background-color: yellow;
+}
+
+.zöd {
+    background-color: green;
+}
+
+h2 {
+    word-spacing: 2rem;
+    text-align: center;
+    writing-mode: vertical-rl;
+}
