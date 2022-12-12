@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+th,td{
+    width: 5rem;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+
+
+p{
+    transform: rotate(90deg);
+    
+    padding-left: 25px;
+    font-size: 25px;
+    letter-spacing: 1rem;
+}
+
+#hetfo{
+    background-color: red;
+}
+
+.csut{
+    background-color: blue;
+}
+
+#csut1{
+    background-color: yellow;
+}
+
+#yes{
+    background-color: green;
+}
