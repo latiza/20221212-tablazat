@@ -1,0 +1,58 @@
+th, td{
+
+    border: 1px solid black;
+    padding: 10px;
+    
+
+}
+
+.container{
+
+display: flex;
+flex-flow: column;
+
+
+}
+
+.elso {
+
+background-color: red;
+
+
+}
+
+.maosodik {
+
+background-color: blue;
+
+}
+
+.harmadik{
+
+background-color: yellow;
+
+
+}
+
+.otodik{
+
+
+
+    background-color: blue;
+}
+
+
+.hatodik{
+
+
+
+    background-color: green;
+}
+
+
+h2{
+
+writing-mode: vertical-lr;
+
+
+}
